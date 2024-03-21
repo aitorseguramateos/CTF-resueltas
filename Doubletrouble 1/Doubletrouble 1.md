@@ -2,7 +2,7 @@
 Para escanear la red local para identifica la IP de la máquina, para ello usaremos el siguiente comando:
 
 arp-scan --localnet
-![[Pasted image 20240225174411.png]]
+<img src="Pasted image 20240225174411.png">
 
 **2.- Realizamos un escaneo de puertos**
 Para realizar el escaneo de puertos hay que hacer un nmap.
