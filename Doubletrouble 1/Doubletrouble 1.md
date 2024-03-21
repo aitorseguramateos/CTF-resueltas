@@ -8,7 +8,7 @@ arp-scan --localnet
 Para realizar el escaneo de puertos hay que hacer un nmap.
 
 nmap -sS -sV (ip de la máquina)
-![[Pasted image 20240225174515.png]]
+[Pasted image 20240225174515.png]
 
 Hemos podido localizar que tiene el puerto 80 abierto, podemos decir que tiene una web corriendo.
 Para cojer un poco más de información sobre la web relizaremos el siguiente comando.
