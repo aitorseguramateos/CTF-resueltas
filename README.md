@@ -9,3 +9,9 @@ EN ESTE REPOSITORIO ENCONTRARÁS LAS SOLUCIONES DE LAS SIGUIENTES CTF (MÁQUINAS
   <li>Experience (vulnyx)</li>
   <li>Ica 1 (vulnhub)</li>
 </ul>
+
+ENLACES DE LAS PÁGINAS DONDE SE OBTIENEN LAS OVAS PARA DESCARGAR:
+<ul>
+  <li><a href="https://www.vulnhub.com/">Vulnhub</a></li>
+  <li><a href="https://vulnyx.com/">Vulnyx</a></li>
+</ul>
