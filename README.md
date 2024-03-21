@@ -12,6 +12,6 @@ EN ESTE REPOSITORIO ENCONTRARÁS LAS SOLUCIONES DE LAS SIGUIENTES CTF (MÁQUINAS
 
 ENLACES DE LAS PÁGINAS DONDE SE OBTIENEN LAS OVAS PARA DESCARGAR:
 <ul>
-  <li><a href="https://www.vulnhub.com/">Vulnhub</a>: https://www.vulnhub.com/</li>
-  <li><a href="https://vulnyx.com/">Vulnyx</a>: https://vulnyx.com/</li>
+  <li><a href="https://www.vulnhub.com/">Vulnhub</a></li>
+  <li><a href="https://vulnyx.com/">Vulnyx</a></li>
 </ul>
