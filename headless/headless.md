@@ -1,6 +1,5 @@
 
 Primero realzaremos un escaneo de puertos con nmap.
-
 `sudo nmap -sV -sC --min-rate 7000 -p- -Pn 10.10.11.8 -oN escaneo`
 <img src="Pasted image 20240424100119.png">
 
