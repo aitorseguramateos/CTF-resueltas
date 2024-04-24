@@ -1,7 +1,7 @@
 
 Primero realzaremos un escaneo de puertos con nmap.
 `sudo nmap -sV -sC --min-rate 7000 -p- -Pn 10.10.11.8 -oN escaneo`
-![[Pasted image 20240424100119.png]]
+<img src"Pasted image 20240424100119.png">
 
 Seguidamente al ver que esconde el puerto 5000, para ello introducimos la ip seguida de dos puntos con el puerto.
 ![[Pasted image 20240424100249.png]]
