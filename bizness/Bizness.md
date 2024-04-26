@@ -123,4 +123,5 @@ with open(wordlist, 'r', encoding='latin-1') as password_list:
 
 Lo ejecutamos y nos da el password.
 <img src="Pasted image 20240426100223.png">
-<img src="Pasted image 20240426100347.png]]![[Pasted image 20240426100536.png">
+<img src="Pasted image 20240426100347.png">
+<img src="Pasted image 20240426100536.png">
