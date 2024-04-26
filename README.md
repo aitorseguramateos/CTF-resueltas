@@ -9,7 +9,7 @@ EN ESTE REPOSITORIO ENCONTRARÁS LAS SOLUCIONES DE LAS SIGUIENTES CTF (MÁQUINAS
   <li>Experience (vulnyx)</li>
   <li>Ica 1 (vulnhub)</li>
   <li>Headless (Hack The Box)</li>
-  <li>Bizness</li>
+  <li>Bizness (Hack The Box)</li>
 </ul>
 
 ENLACES DE LAS PÁGINAS DONDE SE OBTIENEN LAS OVAS PARA DESCARGAR:
