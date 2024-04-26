@@ -11,6 +11,7 @@ EN ESTE REPOSITORIO ENCONTRARÁS LAS SOLUCIONES DE LAS SIGUIENTES CTF (MÁQUINAS
   <li>Headless (Hack The Box)</li>
   <li>Bizness (Hack The Box)</li>
   <li>Trust (dockerlabs)</li>
+  <li>Upload (dockerlabs)</li>
 </ul>
 
 ENLACES DE LAS PÁGINAS DONDE SE OBTIENEN LAS OVAS PARA DESCARGAR:
