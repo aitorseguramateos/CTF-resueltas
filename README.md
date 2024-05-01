@@ -13,6 +13,7 @@
   <li>Trust (dockerlabs)</li>
   <li>Upload (dockerlabs)</li>
   <li>Hook (Vulnyx)</li>
+  <li>Plex (Vulnyx)</li>
 </ul>
 
 <b>ENLACES DE LAS PÁGINAS DONDE SE OBTIENEN LAS OVAS PARA DESCARGAR:</b>
