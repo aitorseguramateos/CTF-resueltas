@@ -17,6 +17,7 @@
   <li>Dump (Vulnyx)</li>
   <li>SecretJenkins (Dockerlabs)</li>
   <li>Amor (Dockerlabs)</li>
+  <li>HackPenguin (Dockerlabs)</li>
 </ul>
 
 <b>ENLACES DE LAS PÁGINAS DONDE SE OBTIENEN LAS OVAS PARA DESCARGAR:</b>
