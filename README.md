@@ -19,6 +19,7 @@
   <li>Amor (Dockerlabs)</li>
   <li>HackPenguin (Dockerlabs)</li>
   <li>Pingpong (Dockerlabs)</li>
+  <li>Ignite (TryHackMe)</li>
 </ul>
 
 <b>ENLACES DE LAS PÁGINAS DONDE SE OBTIENEN LAS OVAS PARA DESCARGAR:</b>
@@ -27,4 +28,5 @@
   <li><a href="https://vulnyx.com/">Vulnyx</a></li>
   <li><a href="https://www.hackthebox.com/">Hack The Box</a></li>
   <li><a href="https://dockerlabs.es/#/">Dockerlabs</a></li>
+  <li><a href="https://tryhackme.com/">TryHackMe</a></li>
 </ul>
