@@ -21,6 +21,7 @@
   <li>Pingpong (Dockerlabs)</li>
   <li>Ignite (TryHackMe)</li>
   <li>Injection (Dockerlabs)</li>
+  <li>Vacaciones (Dockerlabs)</li>
 </ul>
 
 <b>ENLACES DE LAS PÁGINAS DONDE SE OBTIENEN LAS OVAS PARA DESCARGAR:</b>
