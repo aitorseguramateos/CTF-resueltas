@@ -24,6 +24,7 @@
   <li>Vacaciones (Dockerlabs)</li>
   <li>Firsthacking (Dockerlabs)</li>
   <li>BreakMySSH</li>
+  <li>BorazuwarahCTF (Dockerlabs)</li>
 </ul>
 
 <b>ENLACES DE LAS PÁGINAS DONDE SE OBTIENEN LAS OVAS PARA DESCARGAR:</b>
