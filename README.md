@@ -25,6 +25,7 @@
   <li>Firsthacking (Dockerlabs)</li>
   <li>BreakMySSH</li>
   <li>BorazuwarahCTF (Dockerlabs)</li>
+  <li>WalkingCMS (dockerlabs)</li>
 </ul>
 
 <b>ENLACES DE LAS PÁGINAS DONDE SE OBTIENEN LAS OVAS PARA DESCARGAR:</b>
