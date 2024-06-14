@@ -32,6 +32,7 @@
   <li>-Pn (Dockerlabs)</li>
   <li>Pinguinazo (Dockerlabs)</li>
   <li>AguaDeMayo (Dockerlabs)</li>
+  <li>Cyberpunk (The Hackers Labs)</li>
 </ul>
 
 <b>ENLACES DE LAS PÁGINAS DONDE SE OBTIENEN LAS OVAS PARA DESCARGAR:</b>
@@ -41,4 +42,5 @@
   <li><a href="https://www.hackthebox.com/">Hack The Box</a></li>
   <li><a href="https://dockerlabs.es/#/">Dockerlabs</a></li>
   <li><a href="https://tryhackme.com/">TryHackMe</a></li>
+  <li><a href="https://thehackerslabs.com/">The Hackers Labs</a></li>
 </ul>
